@@ -1,0 +1,13 @@
+VAR
+	led1 : BOOL;
+	led2 : BOOL;
+	led3 : BOOL;
+	led4 : BOOL;
+	gAxis01 : ACP10AXIS_typ;
+	gAxis01_HW : SdcHwCfg_typ := (0);
+	gAxis01_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis01_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxis01_ModuleOk : BOOL := 0;
+	ON_OFF : BOOL;
+	LED : ARRAY[0..3] OF BOOL;
+END_VAR
